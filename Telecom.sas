@@ -1,10 +1,10 @@
 /*set working environment*/
 data _null_;
-	rc=dlgcdir("D:\Idata-global\Telecom Project\Tele-Project");
+	rc=dlgcdir("C:\Users\clh47\Desktop\iData\project\telecom\tele project");
 	put rc=;
 run;
 /*create telecom library*/
-libname telecom "D:\Idata-global\Telecom Project\Tele-Project";
+libname telecom "C:\Users\clh47\Desktop\iData\project\telecom\tele project";
 
 
 /*import data*/
